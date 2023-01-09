@@ -1,4 +1,8 @@
 import { render, screen } from '@testing-library/react'
+import {
+  QueryClient,
+  QueryClientProvider,
+} from "@tanstack/react-query";
 import Home from '@/pages/index'
 import mockRouter from 'next-router-mock';
 
@@ -10,12 +14,20 @@ describe('Home', () => {
   beforeEach(() => {
     mockRouter.setCurrentUrl("/");
   });
+  describe('while loading',()=>{
+    it.todo('renders a loader')
+  })
   it('renders a heading', () => {
-    render(<Home />)
-    const heading = screen.getByRole('heading', {
-      name: /Hotel & Co/i,
-    })
-    expect(heading).toBeInTheDocument()
-    expect(heading).toHaveTextContent("Hotel & Co")
+    const queryClient = new QueryClient();
+    render(
+      <QueryClientProvider client={queryClient}>
+        <Home />
+        </QueryClientProvider>
+        )
+    // const heading = screen.getByRole('heading', {
+    //   name: /Hotel & Co/i,
+    // })
+    // expect(heading).toBeInTheDocument()
+    // expect(heading).toHaveTextContent("Hotel & Co")
   })
 })

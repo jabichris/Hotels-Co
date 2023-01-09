@@ -1,338 +1,137 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`next-router-mock renders Header unchanged 1`] = `
+<div>
+  <header
+    class="sticky top-0 z-50 grid grid-cols-3 shadow-md p-5 bg-white md:px-10"
+  >
+    <div
+      class="relative flex items-center cursor-pointer my-auto h-11"
+    >
+      <h1>
+        Hotel & Co
+      </h1>
+    </div>
+    <div
+      class="flex items-center md:border-2 py-2 rounded-full md:shadow-sm"
+    >
+      <input
+        class="bg-transparent flex-grow pl-5 outline-none text-sm placeholder-gray-400 text-gray-600"
+        placeholder="Anywhere | Any week | Add guests"
+        type="text"
+        value=""
+      />
+      <svg
+        aria-hidden="true"
+        class="hidden md:inline-flex bg-red-400 h-8 p-2 rounded-full text-white cursor-pointer md:mx-2"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="flex items-center justify-end space-x-4 text-gray-500"
+    >
+      <p
+        class="hidden md:inline cursor-pointer"
+      >
+        Hotel & Co your home
+      </p>
+      <svg
+        aria-hidden="true"
+        class="h-6 cursor-pointer"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <div
+        class="flex items-center space-x-2 border-2 p-2 rounded-full"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-6"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="h-6"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`next-router-mock renders MediumCard unchanged 1`] = `
+<div>
+  <div
+    class="medium-card"
+  >
+    <div
+      class="relative h-60 w-65"
+    >
+      <img
+        alt="Image"
+        class="rounded-xl"
+        data-nimg="fill"
+        decoding="async"
+        loading="lazy"
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Floremflickr.com%2F640%2F480%2Fnature&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Floremflickr.com%2F640%2F480%2Fnature&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Floremflickr.com%2F640%2F480%2Fnature&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Floremflickr.com%2F640%2F480%2Fnature&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Floremflickr.com%2F640%2F480%2Fnature&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Floremflickr.com%2F640%2F480%2Fnature&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Floremflickr.com%2F640%2F480%2Fnature&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Floremflickr.com%2F640%2F480%2Fnature&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Floremflickr.com%2F640%2F480%2Fnature&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+      />
+    </div>
+    <h4
+      class="text-xl mt-3"
+    >
+      Accounts
+    </h4>
+    <p
+      class="text-gray-500 mt-3"
+    >
+      Accounts
+    </p>
+    <p
+      class="text-l mt-3"
+    >
+      78.00
+    </p>
+  </div>
+</div>
+`;
+
 exports[`next-router-mock renders homepage unchanged 1`] = `
 <div>
-  <div>
-    <body>
-      <header
-        class="sticky top-0 z-50 grid grid-cols-3 shadow-md p-5 bg-white md:px-10"
-      >
-        <div
-          class="relative flex items-center cursor-pointer my-auto h-11"
-        >
-          <h1>
-            Hotel & Co
-          </h1>
-        </div>
-        <div
-          class="flex items-center md:border-2 py-2 rounded-full md:shadow-sm"
-        >
-          <input
-            class="bg-transparent flex-grow pl-5 outline-none text-sm placeholder-gray-400 text-gray-600"
-            placeholder="Anywhere | Any week | Add guests"
-            type="text"
-            value=""
-          />
-          <svg
-            aria-hidden="true"
-            class="hidden md:inline-flex bg-red-400 h-8 p-2 rounded-full text-white cursor-pointer md:mx-2"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              clip-rule="evenodd"
-              d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-              fill-rule="evenodd"
-            />
-          </svg>
-        </div>
-        <div
-          class="flex items-center justify-end space-x-4 text-gray-500"
-        >
-          <p
-            class="hidden md:inline cursor-pointer"
-          >
-            Hotel&Co your home
-          </p>
-          <svg
-            aria-hidden="true"
-            class="h-6 cursor-pointer"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              clip-rule="evenodd"
-              d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z"
-              fill-rule="evenodd"
-            />
-          </svg>
-          <div
-            class="flex items-center space-x-2 border-2 p-2 rounded-full"
-          >
-            <svg
-              aria-hidden="true"
-              class="h-6"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                clip-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                fill-rule="evenodd"
-              />
-            </svg>
-            <svg
-              aria-hidden="true"
-              class="h-6"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                clip-rule="evenodd"
-                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
-                fill-rule="evenodd"
-              />
-            </svg>
-          </div>
-        </div>
-      </header>
-      <div
-        class="grid grid-cols-4 gap-8 m-8"
-      >
-        <div
-          class="medium-card"
-        >
-          <div
-            class="relative h-60 w-65"
-          >
-            <img
-              alt="Image"
-              class="rounded-xl"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxqj&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxqj&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxqj&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxqj&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxqj&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxqj&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxqj&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxqj&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxqj&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
-            />
-          </div>
-          <h4
-            class="text-xl mt-3"
-          >
-            Stay at this spacious Edwardian House
-          </h4>
-          <p
-            class="text-gray-500 mt-3"
-          >
-            Stay at this spacious Edwardian House
-          </p>
-          <p
-            class="text-l mt-3"
-          >
-            £30 / night
-          </p>
-        </div>
-        <div
-          class="medium-card"
-        >
-          <div
-            class="relative h-60 w-65"
-          >
-            <img
-              alt="Image"
-              class="rounded-xl"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fhz2&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fhz2&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fhz2&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fhz2&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fhz2&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fhz2&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fhz2&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fhz2&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fhz2&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
-            />
-          </div>
-          <h4
-            class="text-xl mt-3"
-          >
-            Independant luxury studio apartment
-          </h4>
-          <p
-            class="text-gray-500 mt-3"
-          >
-            Independant luxury studio apartment
-          </p>
-          <p
-            class="text-l mt-3"
-          >
-            £40 / night
-          </p>
-        </div>
-        <div
-          class="medium-card"
-        >
-          <div
-            class="relative h-60 w-65"
-          >
-            <img
-              alt="Image"
-              class="rounded-xl"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fuz7&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fuz7&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fuz7&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fuz7&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fuz7&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fuz7&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fuz7&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fuz7&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fuz7&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
-            />
-          </div>
-          <h4
-            class="text-xl mt-3"
-          >
-            London Studio Apartments
-          </h4>
-          <p
-            class="text-gray-500 mt-3"
-          >
-            London Studio Apartments
-          </p>
-          <p
-            class="text-l mt-3"
-          >
-            £35 / night
-          </p>
-        </div>
-        <div
-          class="medium-card"
-        >
-          <div
-            class="relative h-60 w-65"
-          >
-            <img
-              alt="Image"
-              class="rounded-xl"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F6as&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F6as&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F6as&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F6as&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F6as&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F6as&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F6as&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F6as&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F6as&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
-            />
-          </div>
-          <h4
-            class="text-xl mt-3"
-          >
-            30 mins to Oxford Street, Excel London
-          </h4>
-          <p
-            class="text-gray-500 mt-3"
-          >
-            30 mins to Oxford Street, Excel London
-          </p>
-          <p
-            class="text-l mt-3"
-          >
-            £55 / night
-          </p>
-        </div>
-        <div
-          class="medium-card"
-        >
-          <div
-            class="relative h-60 w-65"
-          >
-            <img
-              alt="Image"
-              class="rounded-xl"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxhc&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxhc&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxhc&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxhc&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxhc&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxhc&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxhc&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxhc&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fxhc&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
-            />
-          </div>
-          <h4
-            class="text-xl mt-3"
-          >
-            Spacious Peaceful Modern Bedroom
-          </h4>
-          <p
-            class="text-gray-500 mt-3"
-          >
-            Spacious Peaceful Modern Bedroom
-          </p>
-          <p
-            class="text-l mt-3"
-          >
-            £60 / night
-          </p>
-        </div>
-        <div
-          class="medium-card"
-        >
-          <div
-            class="relative h-60 w-65"
-          >
-            <img
-              alt="Image"
-              class="rounded-xl"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fpro&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fpro&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fpro&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fpro&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fpro&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fpro&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fpro&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fpro&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2Fpro&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
-            />
-          </div>
-          <h4
-            class="text-xl mt-3"
-          >
-            The Blue Room In London
-          </h4>
-          <p
-            class="text-gray-500 mt-3"
-          >
-            The Blue Room In London
-          </p>
-          <p
-            class="text-l mt-3"
-          >
-            £65 / night
-          </p>
-        </div>
-        <div
-          class="medium-card"
-        >
-          <div
-            class="relative h-60 w-65"
-          >
-            <img
-              alt="Image"
-              class="rounded-xl"
-              data-nimg="fill"
-              decoding="async"
-              loading="lazy"
-              sizes="100vw"
-              src="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8w2&w=3840&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8w2&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8w2&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8w2&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8w2&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8w2&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8w2&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8w2&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Flinks.papareact.com%2F8w2&w=3840&q=75 3840w"
-              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
-            />
-          </div>
-          <h4
-            class="text-xl mt-3"
-          >
-            5 Star Luxury Apartment
-          </h4>
-          <p
-            class="text-gray-500 mt-3"
-          >
-            5 Star Luxury Apartment
-          </p>
-          <p
-            class="text-l mt-3"
-          >
-            £90 / night
-          </p>
-        </div>
-      </div>
-    </body>
-  </div>
+  Loading...
 </div>
 `;

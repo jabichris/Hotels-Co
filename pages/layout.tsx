@@ -1,26 +1,10 @@
 import Head from 'next/head'
-import axios from "axios";
-import {
-    useQuery,
-    useQueryClient,
-    QueryClient,
-    QueryClientProvider,
-} from "@tanstack/react-query";
-
-const queryClient = new QueryClient();
-
+import useFetchHotels from "../customHooks/useFetchHotels";
 import Header from "../components/Header";
 import MediumCard from "../components/MediumCard";
 
 const Home = (): any => {
-    const { isLoading, error, data } = useQuery({
-        queryKey: ['repoData'],
-        queryFn: () =>
-            fetch('https://63bc4643fa38d30d85c2c373.mockapi.io/api/v1/hotels').then(
-                (res) => res.json(),
-            ),
-    })
-
+    const { isLoading, error, data } = useFetchHotels()
     return (isLoading) ? 'Loading...' : (error) ? 'An error has occurred: ' : (
         <div>
             <Head>
